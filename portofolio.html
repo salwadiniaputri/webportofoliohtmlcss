@@ -1,124 +1,163 @@
 <!DOCTYPE html>
+
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Portofolio - Salwa</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <header>
-    <nav align="left">
-        <a href="index.html">Home</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="about.html">About</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="portofolio.html">Portofolio</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portofolio.html">Portofolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-    <br><br><br>
+    <main class="portfolio">
 
-    <h1 align="center">My Portofolio</h1>
+        <h1>My Portofolio</h1>
 
-    <br><br>
+        <table class="portfolio-table">
 
-    <!-- Tabel Portofolio -->
-    <table border="1" cellpadding="10" cellspacing="0" align="center" width="800">
+            <tr>
+                <th>No</th>
+                <th>Kategori</th>
+                <th>Judul Project</th>
+                <th>Deskripsi</th>
+                <th>Hasil</th>
+            </tr>
 
-        <tr>
-            <th>No</th>
-            <th>Kategori</th>
-            <th>Judul Project</th>
-            <th>Deskripsi</th>
-            <th>Hasil</th>
-        </tr>
+            <!-- FOTOGRAFI -->
 
-        <!-- FOTOGRAFI -->
-        <tr>
-            <td>1</td>
-            <td rowspan="3">Fotografi</td>
-            <td>Merbuseka 2026</td>
-            <td>
-                Dokumentasi peserta tari dalam kegiatan Merbuseka 2026.
-            </td>
-            <td>
-                <img src="img/pototari1.jpeg"
-                     alt="Fotografi Event"
-                     width="150">
-            </td>
-        </tr>
+            <tr>
+                <td>1</td>
 
-        <tr>
-            <td>2</td>
-            <td>Uji kompetensi</td>
-            <td>
-               Hasil pemotretan untuk kebutuhan iklan produk kaos dari brand Calluna.
-            </td>
-            <td>
-                <img src="img/fotoproduk.jpeg"
-                     alt="Fotografi Produk"
-                     width="150">
-            </td>
-        </tr>
+                <td rowspan="3">
+                    Fotografi
+                </td>
 
-        <tr>
-            <td>3</td>
-            <td>Engagement Event</td>
-            <td>
-                Mengabadikan detail cincin lamaran sebagai bagian dari dokumentasi acara.
-            </td>
-            <td>
-                <img src="img/fotolamaran.jpeg"
-                     alt="Fotografi Event"
-                     width="150">
-            </td>
-        </tr>
+                <td>
+                    Merbuseka 2026
+                </td>
 
-        <!-- DESAIN -->
-        <tr>
-            <td>4</td>
-            <td rowspan="3">Desain</td>
-            <td>Desain Feed Instagram</td>
-            <td>
-                Membuat desain feed untuk instagram karang taruna RW 03
-            </td>
-            <td>
-                <img src="img/Desain feed.jpg"
-                     alt="Desain Poster"
-                     width="150">
-            </td>
-        </tr>
+                <td>
+                    Dokumentasi peserta tari dalam kegiatan Merbuseka 2026.
+                </td>
 
-        <tr>
-            <td>5</td>
-            <td>Desain Poster</td>
-            <td>
-                Membuat desain poster lomba tari tardisional Merbuseka 2026
-            </td>
-            <td>
-                <img src="img/lomba tari.jpg"
-                     alt="Desain Instagram"
-                     width="150">
-            </td>
-        </tr>
+                <td>
+                    <img src="img/pototari1.jpeg"
+                         alt="Fotografi Event">
+                </td>
+            </tr>
 
-        <tr>
-            <td>6</td>
-            <td>Desain Poster UMKM</td>
-            <td>
-                Membuat poster untuk UMKM brand pisang kembung
-            </td>
-            <td>
-                <img src="img/POSTER PROMOSI.jpg"
-                     alt="Desain poster"
-                     width="150">
-            </td>
-        </tr>
+            <tr>
+                <td>2</td>
 
-    </table>
+                <td>
+                    Uji kompetensi
+                </td>
+
+                <td>
+                    Hasil pemotretan untuk kebutuhan iklan produk kaos dari brand Calluna.
+                </td>
+
+                <td>
+                    <img src="img/fotoproduk.jpeg"
+                         alt="Fotografi Produk">
+                </td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+
+                <td>
+                    Engagement Event
+                </td>
+
+                <td>
+                    Mengabadikan detail cincin lamaran sebagai bagian dari dokumentasi acara.
+                </td>
+
+                <td>
+                    <img src="img/fotolamaran.jpeg"
+                         alt="Fotografi Event">
+                </td>
+            </tr>
+
+            <!-- DESAIN -->
+
+            <tr>
+                <td>4</td>
+
+                <td rowspan="3">
+                    Desain
+                </td>
+
+                <td>
+                    Desain Feed Instagram
+                </td>
+
+                <td>
+                    Membuat desain feed untuk Instagram Karang Taruna RW 03.
+                </td>
+
+                <td>
+                    <img src="img/Desain feed.jpg"
+                         alt="Desain Feed Instagram">
+                </td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+
+                <td>
+                    Desain Poster
+                </td>
+
+                <td>
+                    Membuat desain poster lomba tari tradisional Merbuseka 2026.
+                </td>
+
+                <td>
+                    <img src="img/lomba tari.jpg"
+                         alt="Desain Poster">
+                </td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+
+                <td>
+                    Desain Poster UMKM
+                </td>
+
+                <td>
+                    Membuat poster untuk UMKM brand Pisang Kembung.
+                </td>
+
+                <td>
+                    <img src="img/POSTER PROMOSI.jpg"
+                         alt="Desain Poster UMKM">
+                </td>
+            </tr>
+
+        </table>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Salwa Dinia Putri. All Rights Reserved.</p>
+    </footer>
 
 </body>
+
 </html>
